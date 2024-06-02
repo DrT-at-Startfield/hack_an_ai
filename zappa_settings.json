@@ -1,0 +1,17 @@
+{
+    "dev": {
+        "app_function": "hackai.__init__.app",
+        "aws_region": "us-east-1",
+        "exclude": [
+            "boto3",
+            "dateutil",
+            "botocore",
+            "s3transfer",
+            "concurrent"
+        ],
+        "profile_name": "aws-api",
+        "project_name": "hack-an-ai",
+        "runtime": "python3.10",
+        "s3_bucket": "hackai-zappa"
+    }
+}
