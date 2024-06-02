@@ -1,0 +1,11 @@
+[project]
+name = "hackai"
+version = "1.0.0"
+description = "A simple Flask web app based on the example from the Flask tutorial."
+dependencies = [
+    "flask",
+]
+
+[build-system]
+requires = ["flit_core<4"]
+build-backend = "flit_core.buildapi"
