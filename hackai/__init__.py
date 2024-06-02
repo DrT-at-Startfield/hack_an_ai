@@ -1,6 +1,5 @@
 import os
-
-from hackai import Flask
+from flask import Flask
 
 
 def create_app(test_config=None):
